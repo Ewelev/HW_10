@@ -1,0 +1,100 @@
+    1  cd QA35
+    2  cd ../
+    3  cd '/c/Users/sslev/OneDrive/Рабочий стол/QA35'
+    4  clear
+    5  pwd
+    6  ls -l
+    7  touch test.txt
+    8   ls -l
+    9  clear
+   10  vim test.txt
+   11  cat test.txt
+   12  mkdir Serhii
+   13  ls -l
+   14  cp test.txt Serhii/
+   15  ls -l
+   16  cd Serhii
+   17  ls -l
+   18  clear
+   19  rm test.txt
+   20  ls -l
+   21  ping google.com
+   22  date
+   23  system_profiler
+   24  systeminfo
+   25  clear
+   26  ls -l
+   27  cd ../
+   28  ls -l
+   29  chmod 444 test.txt
+   30  ls -l
+   31  attrib +r test.txt
+   32  cd .../
+   33  cd ../
+   34  cd Uznanie-za-obywatela-polskiego.pdf 
+   35  open Uznanie-za-obywatela-polskiego.pdf 
+   36  wq
+   37  clear
+   38  cd eDrive/Рабочий стол/QA35'~
+   39  cd '/c/Users/sslev/OneDrive/Рабочий стол/QA35'
+   40  cd '/c/Users/sslev/OneDrive/Рабочий стол/QA35'
+   41  cd '/c/Users/sslev/OneDrive/Рабочий стол/QA35'
+   42  git clone 
+   43  git clone https://github.com/Ewelev/GitQA35.git 
+   44  cd GitQA35
+   45  cd ../
+   46  cd GitQA35
+   47  git config --global user.name "Serhii Levchenko"
+   48  git config --global user.email "s.s.levchenko@gmail.com"
+   49  touch file.txt
+   50  ls -l
+   51  git status
+   52  git add fail.txt
+   53  git status
+   54  git add file.txt
+   55  git status
+   56  git commit -m "First commit"
+   57  git push
+   58  git branch
+   59  git checkout -b test
+   60  git branch
+   61  touch test.txt
+   62  ls -l
+   63  git status
+   64  git add test.txt
+   65  git status
+   66  git commit -m "Second commid"
+   67  git checkout mail
+   68  git checkout main
+   69  git merge test
+   70  git push
+   71  git clone https://github.com/Ewelev/HW_10.git
+   72  cd HW_10
+   73  touch text_ignore.txt
+   74  vim .gitignore
+   75  git status
+   76  git add .gitignore
+   77  git commit -m "Додав файл text_ignore.txt і оновив .gitignore"
+   78  touch main_test.txt
+   79  git add .main_test.txt
+   80  git add main_test.txt
+   81  [200~git commit -m "Додав порожній файл main_test.txt"
+   82  git commit -m "Додав порожній файл main_test.txt"
+   83  git checkout -b develop
+   84  touch develop_test.txt
+   85  git add develop_test.txt
+   86  git commit -m "Додав порожній файл develop_test.txt"
+   87  git status
+   88  vin develop_test.txt
+   89  git commit -m "Додав порожній файл develop_test.txt"
+   90  vin test.txt
+   91  vim develop_test.txt
+   92  git status
+   93  git add develop_test.txt
+   94  git add .develop_test.txt
+   95  git add develop_test.txt
+   96  git commit -m "Вніс зміни у develop_test.txt"
+   97  git checkout main
+   98  git merge develop
+   99  git log
+  100  history > command_list.csv
